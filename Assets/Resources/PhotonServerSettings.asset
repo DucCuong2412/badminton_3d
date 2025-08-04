@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c5f9f162767f867ed7cca2c2d96d70, type: 3}
+  m_Name: "PhotonServerSettings"
+  m_EditorClassIdentifier: 
+  HostType: 1
+  ServerAddress: "app-eu.exitgamescloud.com"
+  ServerPort: 5055
+  AppID: "2acd5781-b2dc-49de-9e2b-b57ed2f3ea2d"
+  PingCloudServersOnAwake: 0
+  RpcList:
+  - "ReceiveRPCMessage"
+  - "Chat"
+  - "InstantiateRpc"
+  - "OnAwakeRPC"
+  - "DestroyRpc"
+  DisableAutoOpenWizard: 0

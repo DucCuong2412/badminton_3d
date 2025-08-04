@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69cd6a291575b00ad51a93e4d961ec8e, type: 3}
+  m_Name: "PlayerCareer"
+  m_EditorClassIdentifier: 
+  groups:
+  - name: "Training"
+    playerDefs:
+    - playerDef: 0
+      oneStar: 0
+      twoStars: 0
+      threeStars: 1
+      balls: 0
+      gamesInSet: 1
+      pointsIngame: 11
+      description: "Wellcome to your training match! Win against Anthony Walker to unlock
+      league and level1! "
+    prizes:
+    - name: "League"
+      spriteName: "league-button"
+      prizeType: 0
+      shopItemIndex: 0
+  - name: "Level 1"
+    playerDefs:
+    - playerDef: 1
+      oneStar: 0
+      twoStars: 1
+      threeStars: 2
+      balls: 5
+      gamesInSet: 1
+      pointsIngame: 11
+      description: 
+    - playerDef: 2
+      oneStar: 1
+      twoStars: 2
+      threeStars: 3
+      balls: 7
+      gamesInSet: 1
+      pointsIngame: 11
+      description: 
+    - playerDef: 3
+      oneStar: 1
+      twoStars: 2
+      threeStars: 3
+      balls: 9
+      gamesInSet: 1
+      pointsIngame: 11
+      description: 
+    - playerDef: 4
+      oneStar: 1
+      twoStars: 2
+      threeStars: 3
+      balls: 9
+      gamesInSet: 2
+      pointsIngame: 11
+      description: 
+    prizes:
+    - name: "Balance 500"
+      spriteName: 
+      prizeType: 2
+      shopItemIndex: 1
+  - name: "Level 2"
+    playerDefs:
+    - playerDef: 5
+      oneStar: 1
+      twoStars: 2
+      threeStars: 3
+      balls: 10
+      gamesInSet: 1
+      pointsIngame: 11
+      description: 
+    - playerDef: 6
+      oneStar: 1
+      twoStars: 3
+      threeStars: 4
+      balls: 10
+      gamesInSet: 1
+      pointsIngame: 11
+      description: 
+    - playerDef: 7
+      oneStar: 1
+      twoStars: 3
+      threeStars: 4
+      balls: 12
+      gamesInSet: 2
+      pointsIngame: 11
+      description: 
+    - playerDef: 8
+      oneStar: 1
+      twoStars: 3
+      threeStars: 4
+      balls: 14
+      gamesInSet: 2
+      pointsIngame: 11
+      description: 
+    - playerDef: 9
+      oneStar: 1
+      twoStars: 3
+      threeStars: 4
+      balls: 14
+      gamesInSet: 2
+      pointsIngame: 11
+      description: 
+    prizes:
+    - name: "Indoor Shoe"
+      spriteName: 
+      prizeType: 1
+      shopItemIndex: 1
+  - name: "Level 3"
+    playerDefs:
+    - playerDef: 10
+      oneStar: 0
+      twoStars: 1
+      threeStars: 2
+      balls: 15
+      gamesInSet: 4
+      pointsIngame: 21
+      description: 
+    - playerDef: 11
+      oneStar: 0
+      twoStars: 2
+      threeStars: 3
+      balls: 15
+      gamesInSet: 4
+      pointsIngame: 21
+      description: 
+    - playerDef: 12
+      oneStar: 0
+      twoStars: 2
+      threeStars: 3
+      balls: 17
+      gamesInSet: 5
+      pointsIngame: 21
+      description: 
+    - playerDef: 13
+      oneStar: 0
+      twoStars: 2
+      threeStars: 3
+      balls: 20
+      gamesInSet: 5
+      pointsIngame: 21
+      description: 
+    - playerDef: 14
+      oneStar: 0
+      twoStars: 3
+      threeStars: 4
+      balls: 20
+      gamesInSet: 6
+      pointsIngame: 21
+      description: 
+    prizes: []
+  - name: "Level 4"
+    playerDefs:
+    - playerDef: 15
+      oneStar: 1
+      twoStars: 3
+      threeStars: 4
+      balls: 20
+      gamesInSet: 2
+      pointsIngame: 11
+      description: 
+    - playerDef: 16
+      oneStar: 1
+      twoStars: 3
+      threeStars: 4
+      balls: 25
+      gamesInSet: 2
+      pointsIngame: 11
+      description: 
+    - playerDef: 17
+      oneStar: 1
+      twoStars: 3
+      threeStars: 4
+      balls: 25
+      gamesInSet: 2
+      pointsIngame: 11
+      description: 
+    - playerDef: 18
+      oneStar: 1
+      twoStars: 3
+      threeStars: 4
+      balls: 25
+      gamesInSet: 3
+      pointsIngame: 11
+      description: 
+    - playerDef: 19
+      oneStar: 1
+      twoStars: 3
+      threeStars: 4
+      balls: 25
+      gamesInSet: 3
+      pointsIngame: 11
+      description: 
+    prizes: []

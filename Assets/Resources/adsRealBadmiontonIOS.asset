@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3866a2674f17b6c0cb385f02176621c3, type: 3}
+  m_Name: "adsRealBadmiontonIOS"
+  m_EditorClassIdentifier: 
+  serverURL: "https:\x2f\x2fadserving.herokuapp.com"
+  secondsBetweenPolls: 21600
+  compressionLevel: 0
+  adConfigDao:
+  - actionLink: "1137235888"
+    linkType: 0
+    iconImage: "snooker"
+    badgeImage: "free-star"
+    weight: 1550
+    minWeight: 150
+    impressionsToMinWeight: 50
+    clicksToMinWeight: 2
+    groupIndex: 0
+  - actionLink: "1042301628"
+    linkType: 0
+    iconImage: "table-tennis-champion"
+    badgeImage: "free-star"
+    weight: 550
+    minWeight: 150
+    impressionsToMinWeight: 50
+    clicksToMinWeight: 2
+    groupIndex: 0
+  - actionLink: "929062516"
+    linkType: 0
+    iconImage: "volleyball"
+    badgeImage: "free-star"
+    weight: 250
+    minWeight: 50
+    impressionsToMinWeight: 50
+    clicksToMinWeight: 2
+    groupIndex: 0
+  adMessageConfigDao: []
+  campaignName: "ad"
+  columnsTip: 0

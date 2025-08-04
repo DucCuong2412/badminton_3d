@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e693985c1bbd7515fd660c8a1fdc880, type: 3}
+  m_Name: "CharacterLook"
+  m_EditorClassIdentifier: 
+  characters:
+  - bodyTexture: "europe-white"
+    usesCap: 0
+    capColor: {r: 0, g: 0, b: 0, a: 0}
+    usesBandana: 0
+    bandanaColor: {r: 0, g: 0, b: 0, a: 0}
+    longHair: 0
+    hairColor: {r: 0, g: 0, b: 0, a: 0}
+  - bodyTexture: "europe-white-blue-red"
+    usesCap: 0
+    capColor: {r: 0, g: 0, b: 0, a: 0}
+    usesBandana: 1
+    bandanaColor: {r: 0.8014706, g: 0.8014706, b: 0.8014706, a: 0}
+    longHair: 0
+    hairColor: {r: 0, g: 0, b: 0, a: 0}
+  - bodyTexture: "europe-white-red"
+    usesCap: 0
+    capColor: {r: 0, g: 0, b: 0, a: 0}
+    usesBandana: 1
+    bandanaColor: {r: 0.9926471, g: 0.2428261, b: 0.02189665, a: 0}
+    longHair: 1
+    hairColor: {r: 0.1176471, g: 0.04958835, b: 0.03806228, a: 0}
+  - bodyTexture: "europe-yellow-red-black"
+    usesCap: 0
+    capColor: {r: 0, g: 0, b: 0, a: 0}
+    usesBandana: 1
+    bandanaColor: {r: 0.9117647, g: 0.875516, b: 0.8648356, a: 0}
+    longHair: 1
+    hairColor: {r: 0.7426471, g: 0.6709431, b: 0.3713235, a: 0}
+  - bodyTexture: "europe-green-red"
+    usesCap: 1
+    capColor: {r: 0.8382353, g: 0.8382353, b: 0.8382353, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0.9117647, g: 0.875516, b: 0.8648356, a: 0}
+    longHair: 0
+    hairColor: {r: 0.4338235, g: 0.26157, b: 0.003189882, a: 0}
+  - bodyTexture: "europe-white-blue-red"
+    usesCap: 0
+    capColor: {r: 0.8382353, g: 0.8382353, b: 0.8382353, a: 1}
+    usesBandana: 1
+    bandanaColor: {r: 0.1849049, g: 0.3159676, b: 0.6985294, a: 0}
+    longHair: 1
+    hairColor: {r: 0, g: 0, b: 0, a: 0}
+  - bodyTexture: "europe-denmark-red"
+    usesCap: 0
+    capColor: {r: 0.8382353, g: 0.8382353, b: 0.8382353, a: 1}
+    usesBandana: 1
+    bandanaColor: {r: 0.9117647, g: 0.875516, b: 0.8648356, a: 0}
+    longHair: 0
+    hairColor: {r: 0.7426471, g: 0.6709431, b: 0.3713235, a: 0}
+  - bodyTexture: "europe-green-red"
+    usesCap: 1
+    capColor: {r: 0.4558824, g: 0, b: 0, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0.9117647, g: 0.875516, b: 0.8648356, a: 0}
+    longHair: 0
+    hairColor: {r: 0.7426471, g: 0.6709431, b: 0.3713235, a: 0}
+  - bodyTexture: "europe-spain-red"
+    usesCap: 0
+    capColor: {r: 0.4558824, g: 0, b: 0, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0.9117647, g: 0.875516, b: 0.8648356, a: 0}
+    longHair: 0
+    hairColor: {r: 0.7426471, g: 0.6709431, b: 0.3713235, a: 0}
+  - bodyTexture: "europe-red-white-blue"
+    usesCap: 0
+    capColor: {r: 0.4558824, g: 0, b: 0, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0, g: 0, b: 0, a: 0}
+    longHair: 0
+    hairColor: {r: 0.7426471, g: 0.6709431, b: 0.3713235, a: 0}
+  - bodyTexture: "europe-red-yellow-blue"
+    usesCap: 1
+    capColor: {r: 0.07352942, g: 0.07352942, b: 0.07352942, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0, g: 0, b: 0, a: 0}
+    longHair: 0
+    hairColor: {r: 0.7426471, g: 0.6709431, b: 0.3713235, a: 0}
+  - bodyTexture: "europe-spain-red"
+    usesCap: 0
+    capColor: {r: 0.07352942, g: 0.07352942, b: 0.07352942, a: 1}
+    usesBandana: 1
+    bandanaColor: {r: 0.8308824, g: 0.8308824, b: 0.8308824, a: 0}
+    longHair: 1
+    hairColor: {r: 0.1691176, g: 0.1383814, b: 0.009948095, a: 0}
+  - bodyTexture: "europe-white-red"
+    usesCap: 0
+    capColor: {r: 0.07352942, g: 0.07352942, b: 0.07352942, a: 1}
+    usesBandana: 1
+    bandanaColor: {r: 0.75, g: 0.01654413, b: 0.01654413, a: 0}
+    longHair: 0
+    hairColor: {r: 0.1691176, g: 0.1383814, b: 0.009948095, a: 0}
+  - bodyTexture: "europe-black-white"
+    usesCap: 0
+    capColor: {r: 0.07352942, g: 0.07352942, b: 0.07352942, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0.75, g: 0.01654413, b: 0.01654413, a: 0}
+    longHair: 0
+    hairColor: {r: 0.1691176, g: 0.1383814, b: 0.009948095, a: 0}
+  - bodyTexture: "europe-green-orange"
+    usesCap: 0
+    capColor: {r: 0.07352942, g: 0.07352942, b: 0.07352942, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0.75, g: 0.01654413, b: 0.01654413, a: 0}
+    longHair: 0
+    hairColor: {r: 0.1691176, g: 0.1383814, b: 0.009948095, a: 0}
+  - bodyTexture: "africa-red-white"
+    usesCap: 1
+    capColor: {r: 0.8382353, g: 0.8382353, b: 0.8382353, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0.75, g: 0.01654413, b: 0.01654413, a: 0}
+    longHair: 0
+    hairColor: {r: 0.1691176, g: 0.1383814, b: 0.009948095, a: 0}
+  - bodyTexture: "europe-blue-yellow"
+    usesCap: 0
+    capColor: {r: 0.8382353, g: 0.8382353, b: 0.8382353, a: 1}
+    usesBandana: 1
+    bandanaColor: {r: 0.9921569, g: 0.8941177, b: 0, a: 0}
+    longHair: 1
+    hairColor: {r: 0.1691176, g: 0.1383814, b: 0.009948095, a: 0}
+  - bodyTexture: "europe-spain-red"
+    usesCap: 1
+    capColor: {r: 0.7205882, g: 0.7205882, b: 0.7205882, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0.9921569, g: 0.8941177, b: 0, a: 0}
+    longHair: 0
+    hairColor: {r: 0.1691176, g: 0.1383814, b: 0.009948095, a: 0}
+  - bodyTexture: "europe-blue-white"
+    usesCap: 1
+    capColor: {r: 0, g: 0.04918867, b: 0.07352942, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0, g: 0.4153145, b: 0.6617647, a: 0}
+    longHair: 0
+    hairColor: {r: 0.1691176, g: 0.1383814, b: 0.009948095, a: 0}
+  - bodyTexture: "europe-gb-white"
+    usesCap: 1
+    capColor: {r: 0.9050605, g: 0.9095454, b: 0.9117647, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0, g: 0.4153145, b: 0.6617647, a: 0}
+    longHair: 0
+    hairColor: {r: 0.1691176, g: 0.1383814, b: 0.009948095, a: 0}
+  humancharacters:
+  - bodyTexture: "human"
+    usesCap: 1
+    capColor: {r: 0.9191176, g: 0.9191176, b: 0.9191176, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0, g: 0, b: 0, a: 0}
+    longHair: 0
+    hairColor: {r: 0, g: 0, b: 0, a: 0}
+  - bodyTexture: "europe-spain-red"
+    usesCap: 0
+    capColor: {r: 0.9191176, g: 0.9191176, b: 0.9191176, a: 1}
+    usesBandana: 1
+    bandanaColor: {r: 1, g: 0, b: 0, a: 0}
+    longHair: 0
+    hairColor: {r: 0, g: 0, b: 0, a: 0}
+  - bodyTexture: "africa-red-white"
+    usesCap: 1
+    capColor: {r: 0.9191176, g: 0.9191176, b: 0.9191176, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 1, g: 0, b: 0, a: 0}
+    longHair: 0
+    hairColor: {r: 0, g: 0, b: 0, a: 0}
+  - bodyTexture: "europe-red-yellow-blue"
+    usesCap: 1
+    capColor: {r: 1, g: 1, b: 1, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0.06898791, g: 0.8529412, b: 0.1392732, a: 0}
+    longHair: 0
+    hairColor: {r: 0, g: 0, b: 0, a: 0}
+  - bodyTexture: "europe-red-white-blue"
+    usesCap: 1
+    capColor: {r: 0.2205882, g: 0.3549698, b: 1, a: 1}
+    usesBandana: 0
+    bandanaColor: {r: 0.06898791, g: 0.8529412, b: 0.1392732, a: 0}
+    longHair: 0
+    hairColor: {r: 0, g: 0, b: 0, a: 0}

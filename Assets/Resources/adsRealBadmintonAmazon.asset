@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3866a2674f17b6c0cb385f02176621c3, type: 3}
+  m_Name: "adsRealBadmintonAmazon"
+  m_EditorClassIdentifier: 
+  serverURL: "http:\x2f\x2fadserving.herokuapp.com"
+  secondsBetweenPolls: 21600
+  compressionLevel: 0
+  adConfigDao:
+  - actionLink: "com.giraffegames.realtabletennis"
+    linkType: 0
+    iconImage: "real-table-tennis"
+    badgeImage: "free-star"
+    weight: 100
+    minWeight: 20
+    impressionsToMinWeight: 30
+    clicksToMinWeight: 2
+    groupIndex: 0
+  - actionLink: "com.giraffegames.realtennis"
+    linkType: 0
+    iconImage: "real-tennis"
+    badgeImage: "free-star"
+    weight: 100
+    minWeight: 20
+    impressionsToMinWeight: 30
+    clicksToMinWeight: 2
+    groupIndex: 0
+  adMessageConfigDao:
+  - actionLink: "com.giraffegames.realtabletennis"
+    linkType: 0
+    iconImage: "real-table-tennis"
+    screenshotImage: "TableTennisScreenshot.jpg"
+    minVersion: 0
+    playedGamesBeforeShow: 10
+    maxNumShows: 3
+    playedGamesBeforeShowAgain: 2
+    adUID: "real-table-tennis-large"
+    title: "Real Table Tennis"
+    subtitle: "If you like Badminton, you are going to love our Table Tennis game!"
+    message: 
+  campaignName: "campaign"
+  columnsTip: 3

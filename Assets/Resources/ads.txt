@@ -1,0 +1,156 @@
+{"frames": {
+
+"archer.png":
+{
+	"frame": {"x":170,"y":850,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"archery2.png":
+{
+	"frame": {"x":340,"y":680,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"badminton.png":
+{
+	"frame": {"x":170,"y":680,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"bocce.png":
+{
+	"frame": {"x":0,"y":850,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"bowling.png":
+{
+	"frame": {"x":0,"y":680,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"curling.png":
+{
+	"frame": {"x":340,"y":510,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"darts.png":
+{
+	"frame": {"x":170,"y":510,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"free-star.png":
+{
+	"frame": {"x":340,"y":850,"w":91,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":82},
+	"sourceSize": {"w":91,"h":82}
+},
+"halloween.png":
+{
+	"frame": {"x":0,"y":510,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"real-badminton.png":
+{
+	"frame": {"x":340,"y":340,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"real-table-tennis.png":
+{
+	"frame": {"x":170,"y":340,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"real-tennis.png":
+{
+	"frame": {"x":0,"y":340,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"snooker.png":
+{
+	"frame": {"x":340,"y":170,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"table-tennis-champion.png":
+{
+	"frame": {"x":170,"y":170,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"table-tennis.png":
+{
+	"frame": {"x":0,"y":170,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"tennis.png":
+{
+	"frame": {"x":340,"y":0,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"pool.png":
+{
+	"frame": {"x":170,"y":0,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"volleyball.png":
+{
+	"frame": {"x":0,"y":0,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "ads.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8d4b43d1c25142ca66904208d0cc5401:e5fcb1f93f2b2c9cee2f550344677188:24ceaf80ef9a8533ff9c8513b2d36e34$"
+}
+}

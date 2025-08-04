@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38eeaaed72f64c1bb1c57f798a4fd1b7, type: 3}
+  m_Name: "InAppPurchase"
+  m_EditorClassIdentifier: 
+  base64EncodedPublicKey: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApwUnekGSyhdkmCM8IMapSMYLJJlTCUf1l+hMKCWxEsseAmFL6HR6D3Nb2PpMwWJKtXEJYtillijsvvr0i5Dz9Q78fQevoWgMTqkPNvUfp+J8Fuanh3bOQpDag0SmXZwdX5CBdISUaQRhJW69LSIuynM0bA\x2fNiX5\x2fDNO\x2fspiHZLdJeJPmLz3Hr39QVPhU8l9Zeo8F9xTxVEz7nG0p1uaRwfYIiGI6r9JXdb6KvafVw2OuiLBB71SlC23zDhmr3B0cSF+xD\x2f5E2HOXZH0bdRjnzi6Tu3KkrFGlZ7PM\x2fvz85BuHE2+0imMRkroC76DfehUaVd+W1H9xAGK41dGl3ZzmSQIDAQAB"
+  inAppProducts:
+  - name: "300 Balls"
+    productId: "bucket_of_balls"
+    getsBalls: 350
+    isConsumable: 1
+    cost: 0
+    currency: "EUR"
+  - name: "1000 Balls"
+    productId: "chest_of_balls"
+    getsBalls: 800
+    isConsumable: 1
+    cost: 0
+    currency: "EUR"
+  - name: "3500 Balls"
+    productId: "pile_of_balls"
+    getsBalls: 3000
+    isConsumable: 1
+    cost: 0
+    currency: "EUR"

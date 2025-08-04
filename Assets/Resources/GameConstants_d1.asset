@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce0b0fa37c792a8748882a286fd43285, type: 3}
+  m_Name: "GameConstants"
+  m_EditorClassIdentifier: 
+  characters:
+  - flag: 0
+    textureName: "uk"
+  - flag: 1
+    textureName: "denmark"
+  - flag: 2
+    textureName: "india"
+  - flag: 3
+    textureName: "france"
+  - flag: 4
+    textureName: "denmark"
+  - flag: 5
+    textureName: "france"
+  - flag: 6
+    textureName: "germany"
+  - flag: 7
+    textureName: "russia"
+  - flag: 8
+    textureName: "india"
+  - flag: 9
+    textureName: "germany"
+  - flag: 10
+    textureName: "italy"
+  - flag: 11
+    textureName: "japan"
+  - flag: 12
+    textureName: "india"
+  - flag: 13
+    textureName: "china"
+  - flag: 14
+    textureName: "russia"
+  - flag: 15
+    textureName: "russia"
+  - flag: 16
+    textureName: "spain"
+  - flag: 17
+    textureName: "france"
+  - flag: 18
+    textureName: "spain"
+  - flag: 19
+    textureName: "denmark"
+  - flag: 20
+    textureName: "germany"
+  - flag: 21
+    textureName: "china"
+  - flag: 22
+    textureName: "uk"
+  - flag: 23
+    textureName: "us"
+  - flag: 24
+    textureName: "us"

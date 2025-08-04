@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38eeaaed72f64c1bb1c57f798a4fd1b7, type: 3}
+  m_Name: "InAppPurchaseAmazon"
+  m_EditorClassIdentifier: 
+  base64EncodedPublicKey: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh6CJK\x2f+gJWQ++i\x2ftKhyFskhjAtAP2pQIx9QAGo91mFrxRqhwUqQFPwwAMQNukiTFOnfWUQx1hGYGDk8M1T9YVgUBosgSf67XRthjuvcrfoHF8NBRH4ioufbrMMlhcEj7V3fkZCsdpI0I3KpKeb2Hu6hRMJX0ZOVHTKQ4y1hKpjC4sGlIC9rHYpzUbeDgY4eqcOnwm0FqQn0IiGd0fQOUOJO+ybqTXwGSsHA\x2fFylr2H8cpt2kv6BnNxMSMjJ4puJCp9tJRhFY27Dv0FGt8hKbhzGjBtpfpccKmiibdoKyePA1W+tS5l7E8jLCzFkaM28gMG\x2fMeWTxcr\x2f2pNCRooWjiQIDAQAB"
+  inAppProducts:
+  - name: "350 Balls"
+    productId: "badminton_bucket_of_balls"
+    getsBalls: 350
+    isConsumable: 1
+    cost: 100
+    currency: "EUR"
+  - name: "800 Balls"
+    productId: "badminton_chest_of_balls"
+    getsBalls: 800
+    isConsumable: 1
+    cost: 150
+    currency: "EUR"
+  - name: "3500 Balls"
+    productId: "badminton_pile_of_balls"
+    getsBalls: 3500
+    isConsumable: 1
+    cost: 400
+    currency: "EUR"

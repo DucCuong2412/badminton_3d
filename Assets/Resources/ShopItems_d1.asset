@@ -1,0 +1,481 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c66b60682381e455c897b5d27817c0c9, type: 3}
+  m_Name: "ShopItems"
+  m_EditorClassIdentifier: 
+  shoes:
+  - name: "Standard Shoe"
+    price: 0
+    id: "ShoeBasic Shoe"
+    spriteName: "shoe1"
+    shoesSpeed: 4.5
+    shoesMinSpeed: 3
+    shotsToMinSpeed:
+      min: 2
+      max: 8
+  - name: "Indoor Shoe"
+    price: 150
+    id: "ShoeClasic Shoe"
+    spriteName: "shoe3"
+    shoesSpeed: 5.5
+    shoesMinSpeed: 3
+    shotsToMinSpeed:
+      min: 2
+      max: 9
+  - name: "Air Speed"
+    price: 750
+    id: "ShoeIndoor Shoe"
+    spriteName: "shoe4"
+    shoesSpeed: 6.5
+    shoesMinSpeed: 3
+    shotsToMinSpeed:
+      min: 2
+      max: 10
+  - name: "Signed Custom"
+    price: 1500
+    id: "ShoeCustom Shoe"
+    spriteName: "shoe5"
+    shoesSpeed: 7.5
+    shoesMinSpeed: 4
+    shotsToMinSpeed:
+      min: 2
+      max: 10
+  rackets:
+  - name: "Training Racket"
+    price: 10
+    id: "RacketTraining Racket"
+    spriteName: "paddle1"
+    speed:
+      timings:
+      - maxPenalty: 0.15
+        minTiming: 0.3
+        maxTiming: 0.3
+        pressureMult: 1.5
+        xMult: 0.5
+        height: 0.1
+      - maxPenalty: 0.6
+        minTiming: 0.3
+        maxTiming: 0.3
+        pressureMult: 1.3
+        xMult: 0.5
+        height: 0.2
+      - maxPenalty: 1
+        minTiming: 0.3
+        maxTiming: 0.3
+        pressureMult: 1
+        xMult: 0.4
+        height: 0.2
+    serveSpeed:
+      timings:
+      - maxPenalty: 0.15
+        minTiming: 0.1
+        maxTiming: 0.1
+        pressureMult: 1
+        xMult: 0.5
+        height: 0.1
+      - maxPenalty: 0.4
+        minTiming: 0.2
+        maxTiming: 0.2
+        pressureMult: 1
+        xMult: 0.5
+        height: 0.2
+      - maxPenalty: 1
+        minTiming: 0.7
+        maxTiming: 0.7
+        pressureMult: 1
+        xMult: 0.5
+        height: 0.2
+    longSpeed:
+      timings:
+      - maxPenalty: 0.2
+        minTiming: 0
+        maxTiming: 0
+        pressureMult: 1.5
+        xMult: 1
+        height: 1
+      - maxPenalty: 0.5
+        minTiming: 0
+        maxTiming: 0
+        pressureMult: 1
+        xMult: 1
+        height: 1
+      - maxPenalty: 1
+        minTiming: 0
+        maxTiming: 0
+        pressureMult: 0.7
+        xMult: 1
+        height: 1
+    smashSpeed:
+      timings:
+      - maxPenalty: 0.075
+        minTiming: 0.55
+        maxTiming: 0.65
+        pressureMult: 0.7
+        xMult: 0.85
+        height: 0.2
+      - maxPenalty: 0.6
+        minTiming: 0.7
+        maxTiming: 0.8
+        pressureMult: 0.7
+        xMult: 0.8
+        height: 0.2
+      - maxPenalty: 1
+        minTiming: 1
+        maxTiming: 1
+        pressureMult: 0.7
+        xMult: 0.5
+        height: 0.2
+    timingRange:
+      min: 0
+      max: 0.3
+    longShotPenalty: 0.3
+    longShotHeigh: 0.7
+    smashZ:
+      min: 0.65
+      max: 0.85
+    dropZ:
+      min: 0.4
+      max: 0.6
+    serveDifficulty: 5
+    paddleTexture: {fileID: 0}
+  - name: "Balance 500"
+    price: 300
+    id: "RacketRacket2"
+    spriteName: "paddle2"
+    speed:
+      timings:
+      - maxPenalty: 0.15
+        minTiming: 0.3
+        maxTiming: 0.3
+        pressureMult: 1.5
+        xMult: 0.6
+        height: 0.1
+      - maxPenalty: 0.6
+        minTiming: 0.3
+        maxTiming: 0.3
+        pressureMult: 1.3
+        xMult: 0.5
+        height: 0.2
+      - maxPenalty: 1
+        minTiming: 0.3
+        maxTiming: 0.3
+        pressureMult: 1
+        xMult: 0.4
+        height: 0.2
+    serveSpeed:
+      timings:
+      - maxPenalty: 0.15
+        minTiming: 0.1
+        maxTiming: 0.1
+        pressureMult: 1.1
+        xMult: 0.5
+        height: 0.1
+      - maxPenalty: 0.4
+        minTiming: 0.2
+        maxTiming: 0.2
+        pressureMult: 1
+        xMult: 0.5
+        height: 0.2
+      - maxPenalty: 1
+        minTiming: 0.7
+        maxTiming: 0.7
+        pressureMult: 1
+        xMult: 0.5
+        height: 0.2
+    longSpeed:
+      timings:
+      - maxPenalty: 0.2
+        minTiming: 0
+        maxTiming: 0
+        pressureMult: 1.5
+        xMult: 1
+        height: 1
+      - maxPenalty: 0.5
+        minTiming: 0
+        maxTiming: 0
+        pressureMult: 1
+        xMult: 1
+        height: 1
+      - maxPenalty: 1
+        minTiming: 0
+        maxTiming: 0
+        pressureMult: 0.7
+        xMult: 1
+        height: 1
+    smashSpeed:
+      timings:
+      - maxPenalty: 0.1
+        minTiming: 0.5
+        maxTiming: 0.65
+        pressureMult: 0.7
+        xMult: 0.85
+        height: 0.2
+      - maxPenalty: 0.6
+        minTiming: 0.65
+        maxTiming: 0.8
+        pressureMult: 0.7
+        xMult: 0.8
+        height: 0.2
+      - maxPenalty: 1
+        minTiming: 1
+        maxTiming: 1
+        pressureMult: 0.7
+        xMult: 0.5
+        height: 0.2
+    timingRange:
+      min: 0
+      max: 0.3
+    longShotPenalty: 0.3
+    longShotHeigh: 0.7
+    smashZ:
+      min: 0.65
+      max: 0.85
+    dropZ:
+      min: 0.4
+      max: 0.6
+    serveDifficulty: 4.7
+    paddleTexture: {fileID: 0}
+  - name: "Pro Racket"
+    price: 750
+    id: "RacketRacket4"
+    spriteName: "paddle3"
+    speed:
+      timings:
+      - maxPenalty: 0.2
+        minTiming: 0.3
+        maxTiming: 0.3
+        pressureMult: 1.7
+        xMult: 0.6
+        height: 0.1
+      - maxPenalty: 0.6
+        minTiming: 0.3
+        maxTiming: 0.3
+        pressureMult: 1.4
+        xMult: 0.5
+        height: 0.15
+      - maxPenalty: 1
+        minTiming: 0.3
+        maxTiming: 0.3
+        pressureMult: 1
+        xMult: 0.4
+        height: 0.2
+    serveSpeed:
+      timings:
+      - maxPenalty: 0.2
+        minTiming: 0.1
+        maxTiming: 0.1
+        pressureMult: 1.1
+        xMult: 0.5
+        height: 0.1
+      - maxPenalty: 0.6
+        minTiming: 0.2
+        maxTiming: 0.2
+        pressureMult: 1
+        xMult: 0.5
+        height: 0.2
+      - maxPenalty: 1
+        minTiming: 0.7
+        maxTiming: 0.7
+        pressureMult: 1
+        xMult: 0.5
+        height: 0.2
+    longSpeed:
+      timings:
+      - maxPenalty: 0.2
+        minTiming: 0
+        maxTiming: 0
+        pressureMult: 1.7
+        xMult: 1
+        height: 1
+      - maxPenalty: 0.5
+        minTiming: 0
+        maxTiming: 0
+        pressureMult: 1.1
+        xMult: 1
+        height: 1
+      - maxPenalty: 1
+        minTiming: 0
+        maxTiming: 0
+        pressureMult: 0.7
+        xMult: 1
+        height: 1
+    smashSpeed:
+      timings:
+      - maxPenalty: 0.125
+        minTiming: 0.45
+        maxTiming: 0.55
+        pressureMult: 0.7
+        xMult: 0.9
+        height: 0.2
+      - maxPenalty: 0.6
+        minTiming: 0.6
+        maxTiming: 0.8
+        pressureMult: 0.7
+        xMult: 0.8
+        height: 0.2
+      - maxPenalty: 1
+        minTiming: 1
+        maxTiming: 1
+        pressureMult: 0.7
+        xMult: 0.5
+        height: 0.2
+    timingRange:
+      min: 0
+      max: 0.3
+    longShotPenalty: 0.3
+    longShotHeigh: 0.6
+    smashZ:
+      min: 0.65
+      max: 0.9
+    dropZ:
+      min: 0.3
+      max: 0.6
+    serveDifficulty: 4.5
+    paddleTexture: {fileID: 0}
+  - name: "Custom Power Pro"
+    price: 1300
+    id: "RacketRacket5"
+    spriteName: "paddle4"
+    speed:
+      timings:
+      - maxPenalty: 0.2
+        minTiming: 0.3
+        maxTiming: 0.3
+        pressureMult: 1.9
+        xMult: 0.6
+        height: 0.1
+      - maxPenalty: 0.6
+        minTiming: 0.3
+        maxTiming: 0.3
+        pressureMult: 1.5
+        xMult: 0.5
+        height: 0.15
+      - maxPenalty: 1
+        minTiming: 0.3
+        maxTiming: 0.3
+        pressureMult: 1
+        xMult: 0.4
+        height: 0.2
+    serveSpeed:
+      timings:
+      - maxPenalty: 0.2
+        minTiming: 0.1
+        maxTiming: 0.1
+        pressureMult: 1.1
+        xMult: 0.5
+        height: 0.1
+      - maxPenalty: 0.6
+        minTiming: 0.2
+        maxTiming: 0.2
+        pressureMult: 1
+        xMult: 0.5
+        height: 0.2
+      - maxPenalty: 1
+        minTiming: 0.7
+        maxTiming: 0.7
+        pressureMult: 1
+        xMult: 0.5
+        height: 0.2
+    longSpeed:
+      timings:
+      - maxPenalty: 0.2
+        minTiming: 0
+        maxTiming: 0
+        pressureMult: 2
+        xMult: 1
+        height: 1
+      - maxPenalty: 0.5
+        minTiming: 0
+        maxTiming: 0
+        pressureMult: 1.3
+        xMult: 1
+        height: 1
+      - maxPenalty: 1
+        minTiming: 0
+        maxTiming: 0
+        pressureMult: 0.7
+        xMult: 1
+        height: 1
+    smashSpeed:
+      timings:
+      - maxPenalty: 0.17
+        minTiming: 0.41
+        maxTiming: 0.5
+        pressureMult: 1
+        xMult: 0.9
+        height: 0.2
+      - maxPenalty: 0.6
+        minTiming: 0.5
+        maxTiming: 0.7
+        pressureMult: 1
+        xMult: 0.8
+        height: 0.2
+      - maxPenalty: 1
+        minTiming: 1
+        maxTiming: 1
+        pressureMult: 0.7
+        xMult: 0.5
+        height: 0.2
+    timingRange:
+      min: 0
+      max: 0.3
+    longShotPenalty: 0.3
+    longShotHeigh: 0.6
+    smashZ:
+      min: 0.7
+      max: 0.9
+    dropZ:
+      min: 0.3
+      max: 0.6
+    serveDifficulty: 4.3
+    paddleTexture: {fileID: 0}
+  courts:
+  - name: "Hard Court"
+    price: 0
+    id: "blue-arena"
+    spriteName: "blue-arena"
+    textureName: "blue-arena"
+  - name: "Clay Court"
+    price: 50
+    id: "red-arena"
+    spriteName: "red-arena"
+    textureName: "red-arena"
+  - name: "Grass Court"
+    price: 50
+    id: "green-arena"
+    spriteName: "green-arena"
+    textureName: "green-arena"
+  looks:
+  - name: 
+    price: 0
+    id: "player1"
+    spriteName: "player1"
+    lookIndex: 0
+  - name: 
+    price: 20
+    id: "player2"
+    spriteName: "player2"
+    lookIndex: 1
+  - name: 
+    price: 30
+    id: "player3"
+    spriteName: "player3"
+    lookIndex: 2
+  - name: 
+    price: 30
+    id: "player4"
+    spriteName: "player4"
+    lookIndex: 3
+  - name: 
+    price: 30
+    id: "player5"
+    spriteName: "player5"
+    lookIndex: 4

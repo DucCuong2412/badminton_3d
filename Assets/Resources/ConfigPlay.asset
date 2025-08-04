@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dfbc5d117830cca10b444910e3bb390, type: 3}
+  m_Name: "ConfigPlay"
+  m_EditorClassIdentifier: 
+  adsMaterial: {fileID: 2100000, guid: 90028174e03247b1a1eeff8a2e65b0cf, type: 2}
+  inAppAdsName: "adsRealBadmintonPlay"
+  matchServerUrl: "http:\x2f\x2fadserving.herokuapp.com"
+  matchServerApp: "badminton_1"
+  rankingsServerUrl: "http:\x2f\x2fadserving.herokuapp.com"
+  rankingsApp: "badminton"
+  iosAppId: 
+  proVersionPackage: 
+  activeConfig: 
+  activeConfigIOS: 
+  activeConfigWinRT: 
+  tournamentsOnlyAvailableInPro: 0
+  noWaitingInPro: 0
+  promoItems: []
+  isProVersion: 0
+  canUseRate: 1
+  gameCenterAvailable: 0
+  rateProvider: "play"
+  inAppAvailable: 0
+  useGiftiz: 0
+  allDifficultiesInPro: 0
+  useCloudSync: 0
+  noAds: 0
+  facebookAppId: 
+  facebookDisplayName: 
+  disableFacebookLoginIOS: 1
+  suggestionUrl: 
+  bugReportUrl: 
+  socialProvider: 0
+  inAppProvider: 0
+  interstitialAdId: "6bc2c434def24c6981856d1a12fe9b3d"
+  amazonAppKey: 
+  noAdsOnPromotionDay: 0
+  promotionStart: "2014\x2f02\x2f28 17:00:00"
+  promotionEnd: "2014\x2f03\x2f02 18:00:00"
+  promotionMessage: "You have now No Ads, and +20 (Ball) thanks to App of the Day!"
