@@ -34,7 +34,7 @@ public class UISprite : UIWidget
 	[SerializeField]
 	private UIAtlas mAtlas;
 
-	[HideInInspector]
+	//[HideInInspector]
 	[SerializeField]
 	private string mSpriteName;
 

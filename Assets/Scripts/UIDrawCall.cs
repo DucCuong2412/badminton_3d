@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -213,36 +213,81 @@ public class UIDrawCall : MonoBehaviour
 		}
 	}
 
-	private void CreateMaterial()
-	{
-		string text = (mShader != null) ? mShader.name : ((!(mMaterial != null)) ? "Unlit/Transparent Colored" : mMaterial.shader.name);
-		text = text.Replace("GUI/Text Shader", "Unlit/Text");
-		text = text.Replace(" (AlphaClip)", string.Empty);
-		text = text.Replace(" (SoftClip)", string.Empty);
-		Shader shader = (mClipping == Clipping.SoftClip) ? Shader.Find(text + " (SoftClip)") : ((mClipping != Clipping.AlphaClip) ? ((!(mShader != null)) ? Shader.Find(text) : mShader) : Shader.Find(text + " (AlphaClip)"));
-		if (mMaterial != null)
-		{
-			mDynamicMat = new Material(mMaterial);
-			mDynamicMat.hideFlags = HideFlags.DontSave;
-			mDynamicMat.CopyPropertiesFromMaterial(mMaterial);
-			if (shader != null)
-			{
-				mDynamicMat.shader = shader;
-			}
-			else if (mClipping != 0)
-			{
-				UnityEngine.Debug.LogError(text + " doesn't have a clipped shader version for " + mClipping);
-				mClipping = Clipping.None;
-			}
-		}
-		else
-		{
-			mDynamicMat = new Material(shader);
-			mDynamicMat.hideFlags = HideFlags.DontSave;
-		}
-	}
+    private void CreateMaterial()
+    {
+        string text;
 
-	private Material RebuildMaterial()
+        if (mShader != null)
+        {
+            text = mShader.name;
+        }
+        else
+        {
+            if (mMaterial != null)
+            {
+                text = mMaterial.shader.name;
+            }
+            else
+            {
+                text = "Unlit/Transparent Colored";
+            }
+        }
+
+        text = text.Replace("GUI/Text Shader", "Unlit/Text");
+        text = text.Replace(" (AlphaClip)", string.Empty);
+        text = text.Replace(" (SoftClip)", string.Empty);
+
+        Shader shader;
+
+        if (mClipping == Clipping.SoftClip)
+        {
+            shader = Shader.Find(text + " (SoftClip)");
+        }
+        else if (mClipping == Clipping.AlphaClip)
+        {
+            shader = Shader.Find(text + " (AlphaClip)");
+        }
+        else
+        {
+            if (mShader != null)
+            {
+                shader = mShader;
+            }
+            else
+            {
+                shader = Shader.Find(text);
+            }
+        }
+
+        // 🟡 In ra shader đang được dùng
+        Debug.Log($"[CreateMaterial] Shader name = {text}");
+        Debug.Log($"[CreateMaterial] Shader found = {(shader != null ? shader.name : "null")}");
+
+        if (mMaterial != null)
+        {
+            mDynamicMat = new Material(mMaterial);
+            mDynamicMat.hideFlags = HideFlags.DontSave;
+            mDynamicMat.CopyPropertiesFromMaterial(mMaterial);
+
+            if (shader != null)
+            {
+                mDynamicMat.shader = shader;
+            }
+            else if (mClipping != Clipping.None)
+            {
+                Debug.LogError(text + " doesn't have a clipped shader version for " + mClipping);
+                mClipping = Clipping.None;
+            }
+        }
+        else
+        {
+            mDynamicMat = new Material(shader);
+            mDynamicMat.hideFlags = HideFlags.DontSave;
+        }
+    }
+
+
+    private Material RebuildMaterial()
 	{
 		NGUITools.DestroyImmediate(mDynamicMat);
 		CreateMaterial();

@@ -29,16 +29,16 @@ public class UILabel : UIWidget
 
 	public Crispness keepCrispWhenShrunk = Crispness.OnDesktop;
 
-	[HideInInspector]
+	//[HideInInspector]
 	[SerializeField]
 	private Font mTrueTypeFont;
 
-	[HideInInspector]
+	//[HideInInspector]
 	[SerializeField]
 	private UIFont mFont;
 
 	[Multiline(6)]
-	[HideInInspector]
+	//[HideInInspector]
 	[SerializeField]
 	private string mText = string.Empty;
 
@@ -78,7 +78,7 @@ public class UILabel : UIWidget
 	[SerializeField]
 	private Overflow mOverflow;
 
-	[HideInInspector]
+	//[HideInInspector]
 	[SerializeField]
 	private Material mMaterial;
 

@@ -28,7 +28,7 @@ public class UIWidget : UIRect
 		BasedOnHeight
 	}
 
-	[HideInInspector]
+	//[HideInInspector]
 	[SerializeField]
 	protected Color mColor = Color.white;
 
@@ -36,15 +36,15 @@ public class UIWidget : UIRect
 	[SerializeField]
 	protected Pivot mPivot = Pivot.Center;
 
-	[HideInInspector]
+	//[HideInInspector]
 	[SerializeField]
 	protected int mWidth = 100;
 
-	[HideInInspector]
+	//[HideInInspector]
 	[SerializeField]
 	protected int mHeight = 100;
 
-	[HideInInspector]
+	//[HideInInspector]
 	[SerializeField]
 	protected int mDepth;
 
